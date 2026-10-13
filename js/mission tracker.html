@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mission Tracker</title>
+</head>
+<style>
+    button{
+        background-color: rgb(58, 58, 213);
+        padding:10px 20px;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px rgb(124, 124, 178);
+        color: aliceblue;
+        border:none;
+    }
+    h2{
+        color:rgb(20, 20, 120);
+    }
+    input{
+        padding:10px;
+        width:300px;
+        border-radius: 5px;
+        border:1px solid grey;
+    }
+    .box{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        gap:100px;
+    }
+    .item{
+        padding:15px 25px;
+        border-radius: 5px;
+        background-color: rgb(231, 235, 238);
+    }
+</style>
+<body>
+    <h1>Mission Tracker</h1>
+    <button id="changeClr">Change Colour</button>
+    <br><br><h2>My Missions</h2><br>
+    <input type="text" id="input" placeholder="Enter a mission ..."> &nbsp; &nbsp;
+    <button id="addMission">Add Mission</button> 
+    <br><br><br><div class="box">
+    <p class="item">Total Missions :<span id="missionCount">0</span></p>
+    <p class="item">Completed Missions :<span id="completedCount">0</span></p>
+    <p class="item">Pending Missions :<span id="pendingCount">0</span></p>
+    </div>
+    <ul id="missionList"></ul>
+    <script src="mission tracker.js"></script>
+</body>
+</html>
