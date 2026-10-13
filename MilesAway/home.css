@@ -1,0 +1,93 @@
+.logo{
+    background-image: url("logo.png");
+    background-color:#428787;
+    background-size: 120px;
+    background-repeat: no-repeat;
+    text-align: right;
+    padding: 50px;
+    text-shadow: 2px 2px 4px #000000;
+
+}
+body {
+    background-image: url("bg2.jpg");
+    backdrop-filter: none;
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-family: "Times New Roman";
+    color: #f6f0e6;
+}
+
+.logo a:link,.logo a:visited{
+    text-decoration: none;
+    font-size: 17px;
+    color:#f6f0e6;
+    padding: 15px;
+    cursor: pointer; 
+    border-radius: 15px; 
+}
+.logo a:hover{
+    background-color:#4f9999;
+    color:#143a3a;
+    text-shadow: 2px 2px 4px #000000;
+    padding: 15px;
+    border-radius: 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.welcome{
+    color:#f6f0e6;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+
+}
+.packages {
+    padding: 100px 500px;
+    text-align: center;
+    background-color: #428787;
+    border-radius: 15px;
+    font-size: 15px;
+    text-shadow: 2px 2px 4px #000000;
+}
+.packages p{
+    text-align: center;
+    font-size: 20px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.vibe-topic{
+    text-align: center;
+    background-color: #397777;
+    font-size: 15px;
+    padding: 20px;
+    text-shadow: 2px 2px 4px #000000;
+}
+.vibes {
+    text-align: center;
+    background-color: #428787;
+    border-radius: 15px;
+    font-size: 15px;
+}
+.vibes img{
+    width: 200px;
+    
+}
+.vibes1{
+    text-align: center;
+    background-color: #f6f0e6;
+    color: #428787;
+    border-radius: 15px;
+    font-size: 15px;
+    text-shadow: 2px 2px 4px #636d6d;
+}
+.vibes1 img{
+    width: 200px;
+}
+.vibes details{
+    text-align: left;
+    font-size: 20px;
+}
+.vibes1 details{
+    text-align: left;
+    font-size: 20px;
+}
+

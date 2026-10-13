@@ -1,0 +1,126 @@
+.logo{
+    background-image: url("logo.png");
+    background-color:#428787;
+    background-size: 120px;
+    background-repeat: no-repeat;
+    text-align: right;
+    padding: 50px;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: "Times New Roman";
+}
+.logo a:link,
+.logo a:visited{
+    background-color: #428787;
+    text-decoration: none;
+    font-size: 17px;
+    color:#f6f0e6;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 15px;
+    text-shadow: 2px 2px 4px #000000;
+
+}
+.logo a:hover{
+    background-color: #57a8a8;
+    color:#143a3a;
+    text-shadow: 2px 2px 4px #000000;
+    padding: 15px;
+    border-radius: 15px;
+    cursor: pointer;    
+}
+body{
+    background-image: url("bg2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Times New Roman";
+    color: #f6f0e6;
+    text-shadow: 2px 2px 4px #000000;
+    
+}
+input{
+    height: 25px;
+    border-radius: 10px;
+}
+
+.login{
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    margin:auto;
+    vertical-align:bottom;
+    padding: 25px 25px;
+    color: #f6f0e6;
+    text-shadow: 2px 2px 4px #000000;
+    background-color: #428787;
+    border-radius: 10px;
+    transform: translateY(20%);
+    
+    
+}
+.signup{
+    width: 650px;
+    height: 500px;
+    text-align: center;
+    margin:auto;
+    vertical-align:bottom;
+    padding: 25px 25px;
+    color: #f6f0e6;
+    text-shadow: 2px 2px 4px #000000;
+    background-color: #428787;
+    border-radius: 10px;
+    transform: translateY(10%);   
+}
+.submit{
+     width: 500px;
+    height: 400px;
+    text-align: center;
+    margin:auto;
+    vertical-align:bottom;
+    padding: 25px 25px;
+    color: #f6f0e6;
+    background-color: #428787;
+    border-radius: 10px;
+    transform: translateY(25%);
+}
+a:link,a:visited{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #095152;
+    border-radius: 5px;
+
+}
+a:hover{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #57a8a8;
+    text-decoration: none;
+}
+
+a.bgc{
+    background-color: #095152;
+    border-radius: 5px;
+    padding: 10px;
+}
+a.sign:link,a.sign:visited{
+    background-color: #428787;
+    text-decoration: underline;
+}
+a.sign:hover{
+    background-color: #57a8a8;
+}
+a.bgc:link,a.bgc:visited{
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+a.bgc:hover{
+    background-color:#57a8a8;
+    border-radius: 5px;
+}
+h1.topic{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p.topic{
+    font-family: "Poppins",sans-serif;
+}

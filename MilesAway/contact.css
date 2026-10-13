@@ -1,0 +1,66 @@
+.logo{
+    background-image: url("logo.png");
+    background-color:#428787;
+    background-size: 120px;
+    background-repeat: no-repeat;
+    text-align: right;
+    padding: 50px;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: "Times New Roman";
+    
+}
+body {
+    background-image: url("bg2.jpg");
+    backdrop-filter: none;
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: #f6f0e6;
+}
+a:link,a:visited{
+    text-decoration: none;
+    font-size: 17px;
+    color:#f6f0e6;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 15px;
+}
+a:hover{
+    background-color:#4f9999;
+    color:#143a3a;
+    text-shadow: 2px 2px 4px #000000;
+    padding: 15px;
+    border-radius: 15px;
+    cursor: pointer;    
+}
+.contact-boxes{
+    transform: translateX(2%);
+    display: flex;
+    flex-direction: row;
+    gap: 250px;
+}
+.contact-card{
+    width:500px;
+    padding: 25px;
+    background-color: #d4c9c9;
+    border-radius: 15px;
+    outline: #428787 solid 5px;
+    border: 1px solid #ccc;
+}
+.contact-card h2{
+    color: #396868;
+}
+.contact-card p{
+    color: #428787;
+}
+hr{
+    border: none;
+    background-color: #428787;
+    height: 2px;
+}
+.details{
+    background-color: #d4c9c9;
+    border-radius: 15px;
+    outline:#428787 solid 3px;
+    color:#428787;
+    text-align: center;
+}
