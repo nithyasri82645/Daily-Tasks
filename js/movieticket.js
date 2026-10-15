@@ -39,8 +39,6 @@
                 quantity: quantity,
                 totalPrice: totalPrice
             };
-
-    
             bookings.push(newBooking);
             renderBookings();
             const emailSubject = encodeURIComponent(`Booking Confirmation: ${movieName}`);

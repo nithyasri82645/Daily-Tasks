@@ -1,0 +1,80 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+}
+header{
+    background-color: rgb(33, 33, 73);
+    color: white;
+    padding:10px;
+    border-radius: 10px;
+}
+#movies-list{
+    border:1px solid lightgray;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+form{
+    border:1px solid lightgray;
+    border-radius: 5px;
+}
+.container{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  position: relative;
+  column-gap: 10px;
+}
+.item{
+    list-style-type: none;
+    border: 1px solid lightgray;
+    position:relative;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.container-item-2{
+    border:1px solid lightgray;
+    border-radius: 5px;
+}
+section{
+    margin-left: 15px;
+}
+#no-bookings-text{
+    border: 1px solid lightgray;
+    padding:100px 30px;
+    color:gray;
+}
+.price{
+    color:green;
+}
+.mode{
+    background-color: rgb(220, 235, 249);
+    padding:2px 5px;
+    border-radius: 5px;
+}
+.booking-container{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    gap:20px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    gap:20px;
+}
+label{
+    display: inline-block;
+    width:150px;
+}
+input,select{
+    width:250px;
+    height: 30px;
+}
+button{
+    background-color: rgb(7, 7, 133);
+    color:white;
+    border:none;
+    padding: 10px;
+    border-radius: 5px;
+}

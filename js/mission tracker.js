@@ -37,11 +37,9 @@ function addNewMission(){
         }
         updateCount();
     }
-
 const deleteBtn=document.createElement("button");
 deleteBtn.textContent="Delete";
 deleteBtn.onclick=function(event){
-    event.stopPropagation();
     li.remove();
     updateCount();
 }
